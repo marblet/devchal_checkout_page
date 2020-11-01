@@ -7,6 +7,9 @@
   font-style: normal;
   font-weight: 600;
 }
+ul {
+  list-style: none;
+}
 .wrapper {
   position: relative;
   margin: auto;
@@ -49,6 +52,22 @@ input {
   text-decoration-line: line-through;
   color: #4e5150;
 }
+label {
+  position: absolute;
+  color: #4f4f4f;
+}
+button {
+  position: absolute;
+  width: 166px;
+  height: 54px;
+  background: #f2994a;
+  border-radius: 12px;
+  border: none;
+}
+footer {
+  position: absolute;
+  color: #a9a9a9;
+}
 
 @media screen and (min-width: 600px) {
   .wrapper {
@@ -66,14 +85,6 @@ input {
   h2 {
     font-size: 18px;
     line-height: 22px;
-  }
-  .contact-info > h2 {
-    left: 240px;
-    top: 159.06px;
-  }
-  .shipping-address > h2 {
-    left: 240px;
-    top: 430.06px;
   }
   .items {
     width: 383px;
@@ -185,6 +196,58 @@ input {
 
     color: #333333;
   }
+  .contact-info {
+    position: absolute;
+    top: 159px;
+    left: 239px;
+    width: 465px;
+  }
+  .shipping-address {
+    position: absolute;
+    top: 430px;
+    left: 239px;
+    width: 465px;
+  }
+  .input-1 {
+    position: absolute;
+    width: 465px;
+    top: 37px;
+  }
+  .input-2 {
+    position: absolute;
+    width: 465px;
+    top: 135px;
+  }
+  .input-3 {
+    position: absolute;
+    width: 465px;
+    top: 226px;
+  }
+  .input-4 {
+    position: absolute;
+    width: 465px;
+    top: 317px;
+  }
+  .input-4-right {
+    left: 248px;
+  }
+  .input-5 {
+    position: absolute;
+    top: 415px;
+    left: 1px;
+    width: 465px;
+  }
+  .input-5 > label {
+    top: 2.92px;
+    left: 33px;
+  }
+  .input-5 > input {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
   #mail,
   #phone,
   #name,
@@ -197,6 +260,29 @@ input {
   #postal {
     width: 217px;
     height: 56px;
+  }
+  label {
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  li > input {
+    top: 22px;
+  }
+  button {
+    left: 539px;
+    top: 886px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  footer {
+    width: 226px;
+    height: 17px;
+    left: 595px;
+    top: 1106px;
+    font-size: 14px;
+    line-height: 17px;
   }
 }
 
