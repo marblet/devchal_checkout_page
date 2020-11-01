@@ -17,79 +17,87 @@
 </head>
 
 <body>
-  <main>
-    <dev class="forms">
-      <form>
-        <h1>Checkout</h1>
-        <div class="items">
-          <div class="item">
-            <img src="assets/photo1.png">
-            <p>Vintage Backbag</p>
-            <span class="item-price">$54.99</span>
-            <span class="old-item-price">$94.99</span>
-            <input type="number" id="vintage-backbag" value="1">
+  <div class="wrapper">
+    <main>
+      <div class="forms">
+        <form>
+          <h1>Checkout</h1>
+          <div class="items">
+            <div class="item item-1">
+              <img src="assets/photo1.png">
+              <p>Vintage Backbag</p>
+              <span class="item-price">$54.99</span>
+              <span class="old-item-price">$94.99</span>
+              <input type="number" id="vintage-backbag" value="1">
+            </div>
+            <div class="item item-2">
+              <img src="assets/photo2.png">
+              <p>Levi Shoes</p>
+              <span class="item-price">$74.99</span>
+              <span class="old-item-price">$124.99</span>
+              <input type="number" id="levi-shoes" value="1">
+            </div>
+            <div class="shipping">
+              <span class="horizon-bar"></span>
+              <h3>Shipping</h3>
+              <p>$19</p>
+            </div>
+            <div class="total-price">
+              <span class="horizon-bar"></span>
+              <h3>Total</h3>
+              <p>$148.98</p>
+            </div>
           </div>
-          <div class="item">
-            <img src="assets/photo2.png">
-            <p>Levi Shoes</p>
-            <span class="item-price">$74.99</span>
-            <span class="old-item-price">$124.99</span>
-            <input type="number" id="levi-shoes" value="1">
+          <div class="contact-info">
+            <h2>Contact information</h2>
+            <ul>
+              <li>
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="user-email" placeholder="Enter your email...">
+              </li>
+              <li>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="user-phone" placeholder="Enter your phone...">
+              </li>
+            </ul>
           </div>
-          <div class="shipping">
-            <h3>Shipping</h3>
-            <p>$19</p>
+          <div class="shipping-address">
+            <h2>Shipping address</h2>
+            <ul>
+              <li>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="user-name" placeholder="Your name..">
+              </li>
+              <li>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="user-address" placeholder="Your address..">
+              </li>
+              <li>
+                <label for="city">City</label>
+                <input type="text" id="city" name="user-city" placeholder="Your city..">
+              </li>
+              <li>
+                <label for="country">Country</label>
+                <input type="text" id="country" name="user-country" placeholder="Your country..">
+              </li>
+              <li>
+                <label for="postal">Postal Code</label>
+                <input type="text" id="postal" name="user-postal" placeholder="Your postal code..">
+              </li>
+              <li>
+                <label for="save">Save this information for next time</label>
+                <input type="checkbox" id="save" name="user-save">
+              </li>
+            </ul>
           </div>
-          <div class="total-price">
-            <h3>Total</h3>
-            <p>$148.98</p>
-          </div>
-        </div>
-        <h2>Contact information</h2>
-        <ul>
-          <li>
-            <label for="mail">E-mail</label>
-            <input type="email" id="mail" name="user-email" placeholder="Enter your email...">
-          </li>
-          <li>
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="user-phone" placeholder="Enter your phone...">
-          </li>
-        </ul>
-        <h2>Shipping address</h2>
-        <ul>
-          <li>
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="user-name" placeholder="Your name..">
-          </li>
-          <li>
-            <label for="address">Address</label>
-            <input type="text" id="address" name="user-address" placeholder="Your address..">
-          </li>
-          <li>
-            <label for="city">City</label>
-            <input type="text" id="city" name="user-city" placeholder="Your city..">
-          </li>
-          <li>
-            <label for="country">Country</label>
-            <input type="text" id="country" name="user-country" placeholder="Your country..">
-          </li>
-          <li>
-            <label for="postal">Postal Code</label>
-            <input type="text" id="postal" name="user-postal" placeholder="Your postal code..">
-          </li>
-          <li>
-            <label for="save">Save this information for next time</label>
-            <input type="checkbox" id="save" name="user-save">
-          </li>
-        </ul>
-        <button type="submit">Continue</button>
-      </form>
-    </dev>
-  </main>
-  <footer>
-    marblet @ DevChallenges.io
-  </footer>
+          <button type="submit">Continue</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      marblet @ DevChallenges.io
+    </footer>
+  </div>
 </body>
 
 </html>

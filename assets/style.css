@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Crimson+Pro:wght@200&family=Montserrat:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0; /*全要素のマージン・パディングをリセット*/
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}
+.wrapper {
+  position: relative;
+  margin: auto;
+}
+h1 {
+  position: absolute;
+
+  /* identical to box height */
+
+  color: #4e5150;
+}
+h2 {
+  position: absolute;
+  color: #333333;
+}
+input {
+  position: absolute;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.item > p {
+  color: #4e5150;
+}
+.items {
+  position: absolute;
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+.items h3 {
+  position: absolute;
+  color: #333333;
+}
+.item-price {
+  position: absolute;
+  color: #f2994a;
+}
+.old-item-price {
+  position: absolute;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    width: 1440px;
+    height: 1140px;
+  }
+  h1 {
+    width: 180px;
+    height: 44px;
+    left: 240px;
+    top: 64.06px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .contact-info > h2 {
+    left: 240px;
+    top: 159.06px;
+  }
+  .shipping-address > h2 {
+    left: 240px;
+    top: 430.06px;
+  }
+  .items {
+    width: 383px;
+    height: 535px;
+    left: 817px;
+    top: 170px;
+  }
+  .items h3 {
+    left: 29px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .item-1 {
+    position: absolute;
+    top: 33.51px;
+    left: 29.72px;
+    height: 135.91px;
+    width: 330px;
+  }
+  .item-2 {
+    position: absolute;
+    left: 29.72px;
+    height: 167.46px;
+    top: 200.97px;
+    width: 330px;
+  }
+  .item > img {
+    position: absolute;
+    width: 134.21px;
+    height: 136.27px;
+    left: 0px;
+    top: 0.05px;
+
+    border-radius: 13px;
+  }
+  .item > p {
+    position: absolute;
+    left: 154.44px;
+    top: 0.1px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .item > input {
+    width: 134.25px;
+    height: 52px;
+    left: 155.45px;
+    top: 81.76px;
+  }
+  .item-price {
+    position: absolute;
+    width: 82.77px;
+    height: 29.27px;
+    left: 154.44px;
+    top: 28.37px;
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .old-item-price {
+    width: 49.46px;
+    height: 17.16px;
+    left: 220.04px;
+    top: 31.08px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .horizon-bar {
+    position: absolute;
+    width: 327.06px;
+    height: 0px;
+    left: 29.72px;
+    border: 1px solid #bdbdbd;
+  }
+  .shipping > .horizon-bar {
+    top: 432.24px;
+  }
+  .shipping > h3 {
+    top: 444px;
+  }
+  .shipping > p {
+    position: absolute;
+    width: 255px;
+    height: 28px;
+    left: 101px;
+    top: 444px;
+
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+  }
+  .total-price > .horizon-bar {
+    top: 474.61px;
+  }
+  .total-price > h3 {
+    top: 491px;
+  }
+  .total-price > p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    left: 101px;
+    top: 488px;
+
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    /* Gray 1 */
+
+    color: #333333;
+  }
+  #mail,
+  #phone,
+  #name,
+  #address,
+  #city {
+    width: 465px;
+    height: 56px;
+  }
+  #country,
+  #postal {
+    width: 217px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 375px;
+    height: 1351px;
+  }
+  h1 {
+    width: 120px;
+    height: 29px;
+    left: 18px;
+    top: 32.04px;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .contact-info > h2 {
+    left: 12px;
+    top: 610.06px;
+  }
+  .shipping-address > h2 {
+    left: 12.75px;
+    top: 813.6px;
+  }
+  .items {
+    width: 350px;
+    height: 489px;
+    left: 12px;
+    top: 82px;
+  }
+}
