@@ -56,6 +56,10 @@ label {
   position: absolute;
   color: #4f4f4f;
 }
+.icon {
+  position: absolute;
+  color: #828282;
+}
 button {
   position: absolute;
   width: 166px;
@@ -175,6 +179,10 @@ footer {
     line-height: 17px;
     text-align: right;
   }
+  .icon {
+    top: 38px;
+    left: 14px;
+  }
   .total-price > .horizon-bar {
     top: 474.61px;
   }
@@ -268,6 +276,10 @@ footer {
   }
   li > input {
     top: 22px;
+    padding-left: 52px;
+  }
+  .item > input {
+    text-align: center;
   }
   button {
     left: 539px;
@@ -277,12 +289,12 @@ footer {
     color: #ffffff;
   }
   footer {
-    width: 226px;
+    width: 100%;
     height: 17px;
-    left: 595px;
     top: 1106px;
     font-size: 14px;
     line-height: 17px;
+    text-align: center;
   }
 }
 
